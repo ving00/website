@@ -1,0 +1,527 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 0px 166px;
+}
+
+.header{
+    background-image: url(Backgroung2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-about-us{
+    background-image: url(Backgroung_about_us.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-course{
+    background-image: url(Backgroung_courses.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.header-rew{
+    background-image: url(Backgroung2_about_us.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.header-line{
+    justify-content: space-around;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 400px
+}
+
+
+.nav-item{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.nav-item::before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: -5px;
+	width: 0%;
+	height: 1.5px;
+	background-color: white;
+    transition: width 0.35s;
+}
+
+.nav-item:hover:before{
+    width: 100%;
+    
+}
+
+.nav-item::before {
+	transition: width 0,5s;
+}
+
+.header-down{
+    position: relative;
+}
+
+.header-title{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 8000;
+    font-size: 1.7rem;
+    position: absolute;
+    left: 25px;
+    margin-top: 150px;
+    width: 40%;
+}
+
+.main-menu{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.img-box{
+    width: 320px;
+    height: 330px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 170px;
+}
+
+
+
+
+.header-title-left{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.5rem;
+    left: 680px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header-title-abus{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.5rem;
+    left: 10px;
+    margin-top: 60px;
+    margin-right: 750px;
+}
+
+
+
+.course-item{
+    content: '';
+	left: 0; bottom: -5px;
+	height: 1.5px;
+	background-color: white;
+    border: black;
+}
+
+.course-menu{
+    flex-wrap: wrap;
+    display: flex;
+    margin-left:60px;
+    margin-right: 750px;
+    margin-top: 100px;
+    width: 550px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 10px;
+}
+
+
+.header-python{
+    background-image: url(python_background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.python-descriprion{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.3rem;
+    margin-top: 240px;
+    margin-left: 80px;
+    margin-right: 750px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 16px;
+}
+
+.python-img{
+    float: right;
+    height: 35%;
+    width: 35%;
+    margin-right: 140px;
+    margin-top: 270px;
+}
+
+.course-button-purchase{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-right: 1.6rem;
+    margin-bottom: 0.8rem;
+    background-color: #b1cccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: .2s;
+    box-sizing: border-box;
+    text-align: start;
+    float: bottom;
+}
+
+.course-button-purchase:hover{
+    color: #fff;
+    	background: #333;
+    	tansition: all .3s linear;
+}
+
+
+
+
+.header-cybersafety{
+    background-image: url(cybersafety.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cybersafety-descriprion{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.3rem;
+    margin-top: 240px;
+    margin-left: 80px;
+    margin-right: 750px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 16px;
+}
+
+.cybersafety-img{
+    position: relative;
+    margin-left: 840px;
+    padding-top: 230px;
+    margin-right: 80px;
+    
+}
+
+
+
+.header-tester{
+    background-image: url(tester.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tester-descriprion{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.3rem;
+    margin-top: 240px;
+    margin-left: 80px;
+    margin-right: 750px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 16px;
+}
+
+.tester-img{
+    position: relative;
+    margin-left: 840px;
+    padding-top: 230px;
+    margin-right: 80px;
+}
+
+
+
+
+
+.header-network-technologies{
+    background-image: url(network-tec-img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.network-technologies-descriprion{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.3rem;
+    margin-top: 240px;
+    margin-left: 80px;
+    margin-right: 750px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 16px;
+}
+
+
+.network-technologies-img{
+    position: relative;
+    margin-left: 840px;
+    padding-top: 230px;
+    margin-right: 80px;
+    
+}
+
+.header-front-end{
+    background-image: url(front-end.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.front-end-descriprion{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.3rem;
+    margin-top: 240px;
+    margin-left: 80px;
+    margin-right: 750px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 16px;
+}
+
+
+.front-end-img{
+    position: relative;
+    margin-left: 840px;
+    padding-top: 280px;
+    margin-right: 80px;
+}
+
+
+
+
+
+
+
+.course-button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-right: 1.6rem;
+    margin-bottom: 0.8rem;
+    background-color: #b1cccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: .2s;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+ .course-button:hover {
+    	color: #fff;
+    	background: #333;
+    	tansition: all .3s linear;
+    }
+
+.course-button-small {
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.8rem;
+    background-color: #b1cccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: .2s;
+    text-align: start;
+}
+
+ .course-button-small:hover {
+    	color: #fff;
+    	background: #333;
+    	tansition: all .3s linear;
+    }
+
+
+
+.header-contacts{
+    background-image: url(contacts-background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-title-contacts{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.7rem;
+    left: 10px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.container2{
+    margin-top: 120px;
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 .block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 390px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+
+.container2 .block .content{
+    padding: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.container2 .block .content .quote-img{
+    margin-top: 40px;
+    width: 50px;
+}
+
+.container2 .block .content .face{
+    width: 50px;
+    border-radius: 50%;
+    background: #33d1a0;
+    padding: 4px;
+}
+
+.container2 .block .content p {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container2 .block .content h3 {
+    color: #fff;
+}
+
+.header-down h3{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    font-size: 1.5rem;
+    width: 70vh;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.contact-item img{
+    width: 5vh;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+
+.contact-item{
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-top: 19px;
+}
+
+
+
+.contact-form input{
+    width: 30vh;
+    padding-right: 3px
+}
+
+
+
+.contact-form textarea{
+    margin-top: 15px;
+    height: 20vh;
+    width: 62vh;
+    margin-bottom: 10px;
+    background-color: #b1cccc;
+    border: none;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+.contact-form{
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 15px;
+    float: right;
+    width: 65vh;
+}
+
+
+.contact-form input{
+    margin-right: 10px;
+    background-color: #b1cccc;
+    border: none;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    text-align: start;
+}
